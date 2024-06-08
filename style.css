@@ -1,0 +1,141 @@
+body {
+    background-color: #1E3959; /* Azul marinho escuro */
+    color: #FFFFFF; /* Branco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FCD34D; /* Amarelo */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #1E3959; /* Azul marinho escuro */
+}
+
+nav a {
+    color: #1E3959; /* Azul marinho escuro */
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #FCD34D; /* Amarelo */
+    color: #FFFFFF; /* Branco */
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #FCD34D; /* Amarelo */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #FCD34D; /* Amarelo */
+    color: #FFFFFF; /* Branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1E3959; /* Azul marinho escuro */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #CCC;
+    padding: 8px;
+}
+
+th {
+    background-color: #FCD34D; /* Amarelo */
+    color: #1E3959; /* Azul marinho escuro */
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #FCD34D; /* Amarelo */
+    color: #FFFFFF; /* Branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #1E3959; /* Azul marinho escuro */
+}
+
+footer {
+    background-color: #1E3959; /* Azul marinho escuro */
+    color: #FFFFFF; /* Branco */
+    padding: 20px;
+    text-align: center;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #CCC;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.campo label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+.campo input[type="text"],
+.campo input[type="date"],
+.campo input[type="number"],
+.campo select {
+    width: calc(100% - 110px);
+}
+
+

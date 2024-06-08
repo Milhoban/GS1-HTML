@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpeza dos Oceanos: Cadastro de Viagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Limpeza dos Oceanos</h1>
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="consulta.html">Consultar Viagens</a>
+            <a href="relatorio.html">Relatório</a>
+        </nav>
+    </header>
+
+    <section id="cadastro">
+        <h2>Cadastro de Viagem</h2>
+        <form id="form-cadastro">
+            <fieldset>
+                <legend>Dados da Viagem</legend>
+                <div class="campo">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+                <div class="campo">
+                    <label for="local">Local:</label>
+                    <input type="text" id="local" name="local" required>
+                </div>
+                <div class="campo">
+                    <label for="tipoViagem">Tipo de Viagem:</label>
+                    <select id="tipoViagem" name="tipoViagem" required>
+                        <option value="">Selecione</option>
+                        <option value="mergulho">Mergulho</option>
+                        <option value="navegacao">Navegação</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Lixo Encontrado</legend>
+                <div class="campo">
+                    <label for="plastico">Plástico:</label>
+                    <input type="number" id="plastico" name="plastico" min="0">
+                </div>
+                <div class="campo">
+                    <label for="metal">Metal:</label>
+                    <input type="number" id="metal" name="metal" min="0">
+                </div>
+                <div class="campo">
+                    <label for="vidro">Vidro:</label>
+                    <input type="number" id="vidro" name="vidro" min="0">
+                </div>
+                <div class="campo">
+                    <label for="outro">Outro:</label>
+                    <input type="number" id="outro" name="outro" min="0">
+                </div>
+            </fieldset>
+
+            <button type="submit">Salvar</button>
+        </form>
+        <div id="mensagem-cadastro"></div>
+    </section>
+
+    <footer>
+        <p>&copy;
